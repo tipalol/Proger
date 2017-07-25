@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+	margin-top: 70px;
+}
+
+.navbar {
+	background: #8BC3D0;
+	font-family: "Lato", sans-serif;
+	font-weight: 600;
+}
+
+.navbar-brand {
+	font-family: "Lato", sans-serif;
+	font-weight: 800;
+	color: #fff;
+}
+
+
+a:hover, a:focus {
+	text-decoration: none;
+	color: #555;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway";
+}
+
+.news.card-block {
+	height: 500px;
+}
+
+.news a {
+	color: #50768D;
+}
+
+.news a:hover, .news a:focus {
+	color: #6da3bd;
+}
+
+.card-img-bottom {
+  color: #fff;
+  height: 100%;
+  background: url(https://habrastorage.org/getpro/habr/post_images/c8f/1d0/20c/c8f1d020c02cc5f72b35dc1498dfeb4c.png) center no-repeat;
+  background-size: 80% 80%;
+}
+
+.card-img-bottom-2 {
+  color: #fff;
+  height: 100%;
+  background: url(https://habrastorage.org/web/f82/7b2/c1a/f827b2c1a23a435d9696abb154b87894.jpg) center no-repeat;
+  background-size: 80% 80%;
+}
+
+@media screen and (max-width: 650px) {
+	
+}
+
+@media screen and (max-width: 480px) {
+	
+}
